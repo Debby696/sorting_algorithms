@@ -10,13 +10,14 @@ void quick_sort(int *array, size_t size);
  * @a: is the 1st integer to swap
  * @b: is the 2nd integer to swap
  */
+
 void swap_int(int *a, int *b)
 {
-        int temp;
+	int temp;
 
-        temp = *a;
-        *a = *b;
-        *b = temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
 
 /**
