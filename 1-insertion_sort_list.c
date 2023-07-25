@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap_node = this swaps two nodes in the listint_t
+ * swap_node - this swaps two nodes in the listint_t
  * @h: is the pointer to the head of the listint_t
  * @n1: pointer to the 1st node to be swapped
  * @n2: 2nd node to be swapped
@@ -22,7 +22,7 @@ void swap_node(listint_t **h, listint_t **n1, listint_t *n2)
 }
 /**
  * insertion_sort_list - this sorts a doubly linked list of integers in
-			 ascending order using the Insertion sort algorithm.
+ *	ascending order using the Insertion sort algorithm.
  * @list: pointer to the head of the doubly linked list of integers
  *
  * Description: it prints the list after each swap.
